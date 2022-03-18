@@ -1,0 +1,286 @@
+
+.container{
+    padding-top: 50px;
+}
+
+.header {
+    background-color: #fff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 1;
+
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-menu-icon {
+    display: none;
+}
+.nav-icon {
+    color: #fff;
+}
+.nav-menu-link {
+    color: gray;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.nav-menu-link:hover,
+.nav-menu-link-active {
+    background-color: blue;
+    color: #fff;
+    box-shadow: 3px 3px 8px #fff;
+}
+.nav-logo {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0 40px;
+    line-height: 80px;
+    text-decoration: none;
+    color:#0553b9fa;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style-type: none;
+}
+.nav-menu-item {
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+
+
+#principalIMG {
+    width: 40%;
+    height: auto;
+    max-height: 584px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+#datosVacunaicon {
+
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+    width: 800px;
+    background: #FFF;
+    box-shadow: 0px 10px 10px rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#vacunas img {
+    width: 25%;
+    height: 120px;
+}
+
+.enfermera{
+
+    width: 100%;
+     height: 100%;
+}
+
+
+#vacunasIMG {
+    width: 100%;
+    margin-top: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#term {
+    z-index: 2;
+}
+
+.bajar{
+padding-top: 150px;
+}
+
+.dataIntro {
+    width: 330px;
+}
+
+.boton{
+    width: 100%; 
+    height: 50px;
+    background-color:#f1f5ff ;
+
+}
+
+.imagen{
+    width: 100%; 
+    height: 100%;
+
+}
+
+#btnSub {
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 10px 10px rgb(240, 240, 240);
+}
+
+.textoShould {
+    width: 450px;
+}
+
+#textEmergency {
+    width: 650px;
+}
+
+#cardSombra {
+    box-shadow: 0px 0px 20px 10px rgb(240, 240, 240);
+}
+
+.espacioNavbar {
+    width: 850px;
+    height: 5px;
+}
+
+@media (max-width: 768px) {
+    #datosVacunaicon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:inherit;
+        width: 90%;
+        opacity: 1;
+        left: 0;
+        margin-top: 10px;
+    }
+/**/
+.header {
+    width: 100%;
+    max-width: 100%;
+    background: rgb(225, 225, 230);
+    color: #fff;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.nav-icon {
+    font-size: 25px;
+    display: flex;
+    background: #ffff;
+    color: rgb(0, 35, 190);
+    padding: 5px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 25px;
+     
+}
+.nav-menu-icon {
+    display: none;
+}
+.nav-icon:hover {
+    transform: rotate(180deg);
+    transition: .5s;
+}
+.nav-menu-icon:checked + .nav-menu {
+    clip-path: circle(100%);
+}
+.nav-header {
+    background: rgb(255, 255, 255);
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;        
+    align-items: center;
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav-menu-link {
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+}
+.nav-menu-link:hover,
+.nav-menu-link-active {
+    background-color: rgb(252, 249, 249);
+    color: #a80000;
+    box-shadow: 3px 3px 8px rgb(160, 98, 98);
+}
+.nav-logo {
+    display: flex;
+    font-size: 15px;
+    font-weight: 900;
+    color: #0553b9fa;
+    text-decoration: none;
+}
+.nav-menu {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    background: rgb(0, 59, 251);
+    width: 50%;
+    height:50% ;
+    right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+    z-index: 1;
+}
+.nav-menu-item {
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+/**/
+
+    
+    .espacioNavbar {
+        display: none;
+    }
+    .textoShould,
+    #textEmergency {
+        width: 100%;
+    }
+    #footerData1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #principalIMG {
+        width: 100%;
+        height: 80%;
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        background-size: cover;
+    }
+    #vacunasIMG {
+        margin-top: 5px;
+    }
+}
